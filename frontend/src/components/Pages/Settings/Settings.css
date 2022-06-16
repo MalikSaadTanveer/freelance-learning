@@ -1,0 +1,140 @@
+.settings{
+    width:100%;
+    display:flex;
+    justify-content: center;
+}
+.settings-inner{
+    width:1400px;
+    max-width: 1400px;
+    padding:2vmax;
+    
+}
+.settings-title{
+    font-size:2.6vmax;
+    font-family: GothamBold;
+    color:teal;
+}
+.settings-main{
+    display:flex;
+    justify-content: space-between;
+    padding: 2vmax 0 2vmax 0;
+}
+.settings-main-left{
+    width:16%;
+    display:flex;
+    flex-direction:column;
+    position:relative;
+    /* background-color: red; */
+}
+.settings-main-left span{
+    font-size:1.5vmax;
+    font-family:GothamMedium;
+    padding:10px;
+    /* color:black; */
+    margin-top:1px;
+    cursor: pointer;
+    border-radius: 6px;
+    padding-left: 30px;
+}
+.settings-main-left span:hover{
+    color:rgb(70, 71, 71);
+}
+.active-setting{
+    border-left: 6px solid teal;
+    background-color:rgba(197, 223, 231,0.4);
+    color:teal;
+}
+.settings-main-right{
+    width: 80%;
+    background-color: rgba(244, 244, 244,0.4);
+    /* background:linear-gradient(to right ,teal,rgb(2, 37, 37)); */
+
+    /* background-color:teal; */
+    box-shadow :0px 1px 10px rgba(0, 0, 0,0.2);
+    border-radius: 10px;
+    padding:30px ;
+}
+
+
+.updateAccount-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.updateAccount-left{
+    width:70%;
+}
+.updateAccount-left .left-inner{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.updateAccount-left .left-inner span{
+    font-size:1.4vmax;
+    font-family:GothamMedium;
+    color:teal;
+
+}
+.updateAccount-left .left-inner input{
+    padding:6px 10px;
+    font-size:1.6vmax;
+    outline:none;
+    border:none;
+    border:1px solid lightgrey;
+    width:90%;
+    margin-top:10px;
+    border-radius:4px;
+}
+.updateAccount-right{
+    width:30%;
+    justify-content: center;
+    display:flex;
+    
+}
+.updateAccount-right .right-avatar{
+    width:18vmax;
+    height:18vmax;
+    cursor: pointer;
+}
+.updateAccount-container .description-container{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+.description-container span{
+    font-size:1.4vmax;
+    font-family:GothamMedium;
+    color:teal;
+}
+.description-container textarea{
+    padding:4px 10px;
+    font-size:1.6vmax;
+    outline:none;
+    border:none;
+    border:1px solid lightgrey;
+    width:100%;
+    margin-top:10px;
+    border-radius:4px;
+}
+/* .updateAccount-container  */
+.save-button{
+    background-color: teal;
+    text-align:center;
+    padding:12px 0;
+    font-size: 1.4vmax;
+    margin-left: auto;
+    width:8vmax;
+    color:white;
+    border-radius: 4px;
+    box-shadow :0px 1px 10px rgba(0, 0, 0,0.2);
+    cursor:pointer;
+    transition: all 0.5s;
+    font-family: GothamMedium;
+    border:none
+}
+/* .updateAccount-container  */
+.save-button:hover{
+    background-color: transparent;
+    border: 1px solid teal;
+    color:teal;
+
+}

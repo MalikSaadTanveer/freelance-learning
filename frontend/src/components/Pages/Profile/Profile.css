@@ -1,0 +1,93 @@
+.profile-detail-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:6px 12px;
+}
+.profile-detail-left{
+    color:teal;
+    font-family:"GothamMedium";
+    position:relative;
+    padding:10px 0 ;
+    padding-left:26px;
+    font-size: 16px;
+}
+.profile-detail-right{
+    color:grey;
+    font-family:"GothamMedium";
+}
+.profile-detail-left .icons{
+    font-size: 20px;
+    position:absolute;
+    top:-2;
+    left:0;
+}
+
+
+
+.profileGigCard-container{
+    border-radius: 6px;    
+    text-decoration: none;
+    margin-right: 20px;
+    height:305px;
+    margin-bottom: 20px;
+
+}
+.profileGigCard-container img{
+    width:20vmax;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    height:180px;
+    /* background-color: lightgrey; */
+}
+.profileGigCard-container .inner{
+    width:20vmax;
+    
+    background-color: rgba(244, 244, 244,0.4);
+    box-shadow :0px 1px 10px rgba(0, 0, 0,0.2);
+}
+.profileGigCard-container .desc{
+    padding: 10px;
+    height: 60px;
+    /* font-family: "GothamMedium_1"; */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+    color:black;
+}
+.profileGigCard-container .desc:hover{
+    color:teal;
+}
+.profileGigCard-container hr{
+    margin:6px 20px;
+}
+.profileGigCard-container .price{
+    color:teal;
+    text-align: end;
+    padding: 10px;
+    font-weight: bold;
+    /* font-family: "GothamMedium"; */
+}
+.createGig-container{
+    width:20vmax;
+    height:300px;
+    border-radius: 6px;
+    background-color: rgba(244, 244, 244,0.4);
+    box-shadow :0px 1px 10px rgba(0, 0, 0,0.2);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+.createGig-icon-container{
+    background-color: teal;
+    width:120px;
+    height:120px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    border-radius:50%;
+}
+.createGig-icon{
+    color:white;
+    /* font-size:120px; */
+}

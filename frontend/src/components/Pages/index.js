@@ -1,0 +1,7 @@
+export {default as LoginSignUp} from '../Pages/user/LoginSignUp'
+export {default as Home} from '../Pages/Home/Home'
+export {default as Dashboard} from '../Pages/Dashboard/Dashboard'
+export {default as Settings} from '../Pages/Settings/Settings'
+export {default as Gigs} from '../Pages/Gigs/Gigs'
+export {default as Profile} from '../Pages/Profile/Profile'
+export {default as CreateGig} from '../Pages/CreateGig/CreateGig'

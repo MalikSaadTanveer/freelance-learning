@@ -1,0 +1,187 @@
+/* OverView Page Css */
+.overview-container{
+    /* background-color:red; */
+}
+.overview-container .overview-inner{
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 2vmax;
+}
+.overview-inner label,.overview-mid label,.overview-bottom label{
+    color:teal;
+    font-size:24px;
+    margin-bottom: 10px;
+    font-family: "GothamMedium_1";
+}
+.overview-inner textarea{
+    width:80%;
+    font-size: 24px;
+    padding:6px;
+    font-family: "GothamMedium_1";
+    outline: none;
+}
+
+.overview-mid{
+    display:flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-bottom: 2vmax;
+
+}
+.overview-mid > div{
+    width:40%;
+    display:flex;
+    flex-direction: column;
+}
+.overview-mid > div > select{
+    padding: 10px 10px;
+    outline: none;
+    cursor:pointer;
+}
+.overview-mid > div > select > option{
+    font-size:18px;
+}
+.overview-bottom input{
+    width: 18%;
+    margin: 10px;
+    padding:10px;
+    border-radius: 4px;
+    border: 1px solid lightgrey;
+    outline:none;
+}
+.overview-bottom .add-button{
+    background-color:teal;
+    color:white;
+    cursor:pointer;
+    padding: 8px 20px;
+    border-radius: 4px;
+}
+.tagBox-container{
+    position: relative;
+}
+.tagBox-container .icon{
+    position: absolute; 
+    right:0;
+    font-size:20px;
+    z-index:1;
+}
+
+
+/* Pricing css */
+.pricing-container{
+
+}
+.pricing-container .title{
+    color:teal;
+    font-size: 40px;
+    font-family: "GothamMedium_1";
+
+}
+.pricing-inner{
+    display:flex;
+    margin: 20px 0;
+    border:1px solid lightgrey;
+
+}
+.pricing-inner-item{
+    width:25%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+    /* background-color:blue; */
+}
+.pricing-numberOfDays{
+    margin-top: auto;
+    margin-left: auto;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.pricing-inner textarea{
+    width:100%;
+    font-size: 16px;
+    border:1px solid lightgrey;
+    padding: 10px;
+}
+.pricing-inner select{
+    width:100%;
+    padding: 10px 10px;
+    outline: none;
+    cursor:pointer;
+    border:1px solid lightgrey;
+
+}
+.pricing-inner option{
+    font-size: 18px;
+}
+.pricing-inner-item .title{
+    font-size:24px;
+    font-family:"GothamMedium_1";
+    color:white;
+    padding:20px;
+    width:100%;
+    background-color:teal;
+    border:1px solid lightgrey;
+}
+.pricing-inner-item .amount-container{
+    width:100%;
+    border:1px solid lightgrey;
+    background-color:white;
+
+
+}
+.pricing-inner-item .amount-container input{
+    padding: 10px;
+    width:90%;
+    border: none;
+    outline:none;
+}
+.pricing-inner-item .amount-container span{
+    text-align:center;
+    width:10%;
+    color:teal;
+    font-size: 18px;
+    margin-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+/* Description css*/
+
+.description-inner{
+    width: 90%;
+    /* background-color:red; */
+}
+.description-inner .title{
+    font-size:20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:black;
+    margin-top: 20px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border-top: 1px solid lightgrey;
+}
+.description-inner textarea{
+    width: 100%;
+    font-size: 26px;
+    padding:10px 20px;
+}
+
+/* Gallery css */
+.image-container{
+    width:250px;
+    height:250px;
+    background-color:white;
+    border:1px solid lightgrey;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    cursor: pointer;
+    position: relative;
+}
+.image-container .image-text{
+    position:absolute;
+    font-size:20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:teal;
+}

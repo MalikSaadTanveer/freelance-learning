@@ -1,0 +1,31 @@
+.gigs{
+    width:100%;
+    /* display:flex;
+    justify-content: center; */
+}
+.gigs-inner{
+    /* width:1300px; */
+    max-width: 1300px; 
+     padding:2vmax;
+    /* background-color:red; */
+    /* margin-top:20px; */
+    /* background:linear-gradient(to right,rgb(160, 34, 149),rgba(0, 128, 128,0.6)); */
+}
+.gigs-title{
+    font-size:3.6vmax;
+    font-family: GothamBold;
+    color:teal;
+    /* background-color:blue;
+    width:100%;
+    padding:20px; */
+    /* text-decoration: underline; */
+}
+.gigs-inner .container {
+    display: flex;
+    /* margin: 2vmax auto; */
+    /* width: 1400px;
+    max-width: 1400px; */
+    flex-wrap: wrap;
+    justify-content: center;
+    /* max-width: 100%; */
+  }
